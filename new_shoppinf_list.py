@@ -19,6 +19,12 @@ new_shopping_dict ["будівельний"] = ["фарба жовта", "фар
 for keys, values in new_shopping_dict.items():
     print(f"Я йду до {keys.title()} та купую там:{values.__str__()}") 
 
+value3 = new_shopping_dict["пекарня"]
+value4 = new_shopping_dict["будівельний"]
+total = len(value3) + len(value4)
+print(f"Всього я разом купую {total} товарів")
+
+
 
 
 

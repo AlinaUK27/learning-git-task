@@ -11,5 +11,8 @@ print(f"Разом купую {len(value1) + len(value2)} товарів")
 
 del shopping_dict ["продуктовий"]
 
+shopping_dict ["пекарня"] = ['лаваш', 'печиво']
+
 for keys, values in shopping_dict.items():
     print(f"Заходжу в {keys.title()}, купую тут такі товари:{values.__str__().title()}")
+

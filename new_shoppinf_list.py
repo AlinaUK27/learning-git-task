@@ -13,6 +13,12 @@ del shopping_dict ["продуктовий"]
 
 shopping_dict ["пекарня"] = ['лаваш', 'печиво']
 
-for keys, values in shopping_dict.items():
-    print(f"Заходжу в {keys.title()}, купую тут такі товари:{values.__str__().title()}")
+new_shopping_dict = shopping_dict.copy()
+new_shopping_dict ["будівельний"] = ["фарба жовта", "фарба блакитна", "пензлі"]
+
+for keys, values in new_shopping_dict.items():
+    print(f"Я йду до {keys.title()} та купую там:{values.__str__()}") 
+
+
+
 

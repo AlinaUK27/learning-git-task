@@ -24,6 +24,8 @@ value4 = new_shopping_dict["будівельний"]
 total = len(value3) + len(value4)
 print(f"Всього я разом купую {total} товарів")
 
+new_shopping_dict ["тканини"] = ["гудзики", "нитки білі"]
+
 
 
 
